@@ -1,0 +1,10 @@
+Jun 23 13:49:56.743 HYPERVISOR: Release 0.2.23-amd64/Darwin (tag 2023010200)
+Jun 23 13:49:56.746 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54996.
+Jun 23 13:49:56.746 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 23 13:49:56.747 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips 
+Jun 23 13:49:56.747 GENERAL: working_dir=/Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips
+Jun 23 13:49:56.747 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Jun 23 14:25:23.151 HYPERVISOR: exec_cmd: ethsw delete Switch1 
+Jun 23 14:25:23.153 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 23 14:25:23.553 HYPERVISOR: Stopped.
+Jun 23 14:25:23.554 GENERAL: reset done.

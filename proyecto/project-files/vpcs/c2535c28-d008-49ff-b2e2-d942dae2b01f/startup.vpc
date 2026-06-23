@@ -1,9 +1,2 @@
-# This the configuration for cameras1
-#
-# Uncomment the following line to enable DHCP
-# dhcp
-# or the line below to manually setup an IP address and subnet mask
-# ip 192.168.1.1 255.0.0.0
-#
-
 set pcname cameras1
+ip 172.16.2.70 172.16.2.65 27

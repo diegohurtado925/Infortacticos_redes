@@ -1,0 +1,80 @@
+Jun 23 14:26:46.011 HYPERVISOR: Release 0.2.23-amd64/Darwin (tag 2023010200)
+Jun 23 14:26:46.012 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55738.
+Jun 23 14:26:46.017 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 23 14:26:46.017 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips 
+Jun 23 14:26:46.017 GENERAL: working_dir=/Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips
+Jun 23 14:26:46.017 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/98b6266e-1a06-44a2-b844-d178bb0a7c7f 
+Jun 23 14:26:46.017 GENERAL: working_dir=/Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/98b6266e-1a06-44a2-b844-d178bb0a7c7f
+Jun 23 14:26:46.018 HYPERVISOR: exec_cmd: vm create ESW2 5 c3725 
+Jun 23 14:26:46.018 VM: VM ESW2 created.
+Jun 23 14:26:46.018 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW2 5044 
+Jun 23 14:26:46.019 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW2 
+Jun 23 14:26:46.019 HYPERVISOR: exec_cmd: vm set_disk0 ESW2 1 
+Jun 23 14:26:46.019 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Jun 23 14:26:46.019 HYPERVISOR: exec_cmd: vm set_idle_pc ESW2 0x60c09aa0 
+Jun 23 14:26:46.020 HYPERVISOR: exec_cmd: vm set_ios ESW2 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 14:26:46.020 HYPERVISOR: exec_cmd: vm set_nvram ESW2 256 
+Jun 23 14:26:46.020 HYPERVISOR: exec_cmd: vm set_ram ESW2 256 
+Jun 23 14:26:46.021 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Jun 23 14:26:46.021 HYPERVISOR: exec_cmd: vm slot_add_binding ESW2 1 0 NM-16ESW 
+Jun 23 14:26:46.053 HYPERVISOR: exec_cmd: vm set_ios ESW2 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 14:26:47.561 HYPERVISOR: exec_cmd: vm set_ios ESW2 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 14:26:49.911 HYPERVISOR: exec_cmd: vm set_ios ESW2 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 14:27:54.780 HYPERVISOR: exec_cmd: nio create_udp udp-d0dd4097-e079-4cf8-ae91-773e15ee45af 10028 127.0.0.1 10029 
+Jun 23 14:27:55.010 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 0 udp-d0dd4097-e079-4cf8-ae91-773e15ee45af 
+Jun 23 14:27:55.010 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Jun 23 14:31:15.982 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Jun 23 14:31:15.982 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding ESW2 1 0 
+Jun 23 14:31:15.983 HYPERVISOR: exec_cmd: nio delete udp-d0dd4097-e079-4cf8-ae91-773e15ee45af 
+Jun 23 14:33:02.017 HYPERVISOR: exec_cmd: nio create_udp udp-49cfa9c6-1e22-43ef-b2a6-01ec41ddb16f 10028 127.0.0.1 10029 
+Jun 23 14:33:02.019 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 0 udp-49cfa9c6-1e22-43ef-b2a6-01ec41ddb16f 
+Jun 23 14:33:02.019 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Jun 23 14:33:18.389 HYPERVISOR: exec_cmd: vm set_ios ESW2 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 14:33:18.390 HYPERVISOR: exec_cmd: vm rename ESW2 switch3 
+Jun 23 14:33:18.417 HYPERVISOR: exec_cmd: vm set_ios switch3 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 14:34:39.736 HYPERVISOR: exec_cmd: nio create_udp udp-92bcf3d4-a7c8-4887-9db4-a577b852e75d 10044 127.0.0.1 10045 
+Jun 23 14:34:39.737 HYPERVISOR: exec_cmd: vm slot_add_nio_binding switch3 1 15 udp-92bcf3d4-a7c8-4887-9db4-a577b852e75d 
+Jun 23 14:34:39.737 HYPERVISOR: exec_cmd: vm get_status switch3 
+Jun 23 14:38:12.450 HYPERVISOR: exec_cmd: nio create_udp udp-8dcfbfd8-203d-4a4a-841e-93e2554499ae 10102 127.0.0.1 10103 
+Jun 23 14:38:12.451 HYPERVISOR: exec_cmd: vm slot_add_nio_binding switch3 1 1 udp-8dcfbfd8-203d-4a4a-841e-93e2554499ae 
+Jun 23 14:38:12.451 HYPERVISOR: exec_cmd: vm get_status switch3 
+Jun 23 14:38:23.875 HYPERVISOR: exec_cmd: nio create_udp udp-28e655c1-491c-40cc-bad6-e41464fc96a3 10106 127.0.0.1 10107 
+Jun 23 14:38:23.876 HYPERVISOR: exec_cmd: vm slot_add_nio_binding switch3 1 5 udp-28e655c1-491c-40cc-bad6-e41464fc96a3 
+Jun 23 14:38:23.877 HYPERVISOR: exec_cmd: vm get_status switch3 
+Jun 23 14:38:31.592 HYPERVISOR: exec_cmd: nio create_udp udp-b60a38db-771f-4dfc-9ff5-41b30db8897f 10110 127.0.0.1 10111 
+Jun 23 14:38:31.593 HYPERVISOR: exec_cmd: vm slot_add_nio_binding switch3 1 6 udp-b60a38db-771f-4dfc-9ff5-41b30db8897f 
+Jun 23 14:38:31.593 HYPERVISOR: exec_cmd: vm get_status switch3 
+Jun 23 14:38:37.915 HYPERVISOR: exec_cmd: nio create_udp udp-ffb5551b-00fd-4235-b58a-e8cb8b7a97f1 10114 127.0.0.1 10115 
+Jun 23 14:38:37.917 HYPERVISOR: exec_cmd: vm slot_add_nio_binding switch3 1 7 udp-ffb5551b-00fd-4235-b58a-e8cb8b7a97f1 
+Jun 23 14:38:37.917 HYPERVISOR: exec_cmd: vm get_status switch3 
+Jun 23 14:38:44.533 HYPERVISOR: exec_cmd: nio create_udp udp-adc91f98-2d33-4175-b0b6-0f20b92565c3 10118 127.0.0.1 10119 
+Jun 23 14:38:44.534 HYPERVISOR: exec_cmd: vm slot_add_nio_binding switch3 1 8 udp-adc91f98-2d33-4175-b0b6-0f20b92565c3 
+Jun 23 14:38:44.534 HYPERVISOR: exec_cmd: vm get_status switch3 
+Jun 23 14:39:06.983 HYPERVISOR: exec_cmd: nio create_udp udp-2dca5ce2-ad94-4539-8473-258be6344000 10122 127.0.0.1 10123 
+Jun 23 14:39:06.985 HYPERVISOR: exec_cmd: vm slot_add_nio_binding switch3 1 9 udp-2dca5ce2-ad94-4539-8473-258be6344000 
+Jun 23 14:39:06.985 HYPERVISOR: exec_cmd: vm get_status switch3 
+Jun 23 14:39:59.904 HYPERVISOR: exec_cmd: vm set_ghost_status switch3 2 
+Jun 23 14:39:59.904 HYPERVISOR: exec_cmd: vm set_ghost_file switch3 /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/c3725-adventerprisek9-mz.124-15.T14-1.image-256.ghost 
+Jun 23 14:39:59.904 HYPERVISOR: exec_cmd: vm get_status switch3 
+Jun 23 14:39:59.905 HYPERVISOR: exec_cmd: vm set_config switch3 configs/i5_startup-config.cfg 
+Jun 23 14:39:59.905 HYPERVISOR: exec_cmd: vm start switch3 
+Jun 23 14:41:00.163 HYPERVISOR: exec_cmd: vm extract_config switch3 
+Jun 23 14:41:00.167 HYPERVISOR: exec_cmd: vm extract_config switch3 
+Jun 23 14:55:00.246 HYPERVISOR: exec_cmd: vm extract_config switch3 
+Jun 23 14:55:00.249 HYPERVISOR: exec_cmd: vm extract_config switch3 
+Jun 23 14:57:00.258 HYPERVISOR: exec_cmd: vm extract_config switch3 
+Jun 23 14:57:00.267 HYPERVISOR: exec_cmd: vm extract_config switch3 
+Jun 23 14:58:22.822 HYPERVISOR: exec_cmd: vm set_ghost_status switch3 2 
+Jun 23 14:58:22.823 HYPERVISOR: exec_cmd: vm set_ghost_file switch3 /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/c3725-adventerprisek9-mz.124-15.T14-1.image-256.ghost 
+Jun 23 14:58:22.823 HYPERVISOR: exec_cmd: vm get_status switch3 
+Jun 23 15:24:06.816 HYPERVISOR: exec_cmd: vm get_status switch3 
+Jun 23 15:24:06.816 HYPERVISOR: exec_cmd: vm stop switch3 
+Jun 23 15:24:07.041 VM: VM switch3 shutdown.
+Jun 23 15:24:07.042 HYPERVISOR: exec_cmd: vm extract_config switch3 
+Jun 23 15:24:14.286 HYPERVISOR: exec_cmd: vm set_ghost_status switch3 2 
+Jun 23 15:24:14.287 HYPERVISOR: exec_cmd: vm set_ghost_file switch3 /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/c3725-adventerprisek9-mz.124-15.T14-1.image-256.ghost 
+Jun 23 15:24:14.287 HYPERVISOR: exec_cmd: vm get_status switch3 
+Jun 23 15:24:14.287 HYPERVISOR: exec_cmd: vm set_config switch3 configs/i5_startup-config.cfg 
+Jun 23 15:24:14.288 HYPERVISOR: exec_cmd: vm start switch3 
+Jun 23 15:25:14.535 HYPERVISOR: exec_cmd: vm extract_config switch3 
+Jun 23 15:25:14.539 HYPERVISOR: exec_cmd: vm extract_config switch3 

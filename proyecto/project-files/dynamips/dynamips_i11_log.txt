@@ -1,0 +1,63 @@
+Jun 23 14:33:39.616 HYPERVISOR: Release 0.2.23-amd64/Darwin (tag 2023010200)
+Jun 23 14:33:39.617 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55910.
+Jun 23 14:33:39.619 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 23 14:33:39.619 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips 
+Jun 23 14:33:39.619 GENERAL: working_dir=/Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips
+Jun 23 14:33:39.619 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/9fe94902-ba17-4584-aec5-c14dd3b3cc3c 
+Jun 23 14:33:39.619 GENERAL: working_dir=/Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/9fe94902-ba17-4584-aec5-c14dd3b3cc3c
+Jun 23 14:33:39.620 HYPERVISOR: exec_cmd: vm create ESW2 6 c3725 
+Jun 23 14:33:39.620 VM: VM ESW2 created.
+Jun 23 14:33:39.620 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW2 5045 
+Jun 23 14:33:39.621 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW2 
+Jun 23 14:33:39.621 HYPERVISOR: exec_cmd: vm set_disk0 ESW2 1 
+Jun 23 14:33:39.621 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Jun 23 14:33:39.621 HYPERVISOR: exec_cmd: vm set_idle_pc ESW2 0x60c09aa0 
+Jun 23 14:33:39.622 HYPERVISOR: exec_cmd: vm set_ios ESW2 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 14:33:39.622 HYPERVISOR: exec_cmd: vm set_nvram ESW2 256 
+Jun 23 14:33:39.622 HYPERVISOR: exec_cmd: vm set_ram ESW2 256 
+Jun 23 14:33:39.623 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Jun 23 14:33:39.623 HYPERVISOR: exec_cmd: vm slot_add_binding ESW2 1 0 NM-16ESW 
+Jun 23 14:33:39.657 HYPERVISOR: exec_cmd: vm set_ios ESW2 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 14:33:42.160 HYPERVISOR: exec_cmd: vm set_ios ESW2 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 14:34:12.023 HYPERVISOR: exec_cmd: nio create_udp udp-4a748fc4-d9e2-4f44-b2a2-3fba06ea4f1d 10034 127.0.0.1 10035 
+Jun 23 14:34:12.256 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 0 udp-4a748fc4-d9e2-4f44-b2a2-3fba06ea4f1d 
+Jun 23 14:34:12.257 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Jun 23 14:36:54.934 HYPERVISOR: exec_cmd: nio create_udp udp-6d3ebc76-0df4-46dc-9cda-13d8e441826e 10070 127.0.0.1 10071 
+Jun 23 14:36:54.936 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 1 udp-6d3ebc76-0df4-46dc-9cda-13d8e441826e 
+Jun 23 14:36:54.936 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Jun 23 14:40:01.248 HYPERVISOR: exec_cmd: vm set_ghost_status ESW2 2 
+Jun 23 14:40:01.248 HYPERVISOR: exec_cmd: vm set_ghost_file ESW2 /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/c3725-adventerprisek9-mz.124-15.T14-1.image-256.ghost 
+Jun 23 14:40:01.249 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Jun 23 14:40:01.249 HYPERVISOR: exec_cmd: vm set_config ESW2 configs/i6_startup-config.cfg 
+Jun 23 14:40:01.249 HYPERVISOR: exec_cmd: vm start ESW2 
+Jun 23 14:41:01.520 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Jun 23 14:41:01.522 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Jun 23 14:57:44.409 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Jun 23 14:57:44.411 HYPERVISOR: exec_cmd: vm stop ESW2 
+Jun 23 14:57:44.518 VM: VM ESW2 shutdown.
+Jun 23 14:57:44.519 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Jun 23 14:58:02.032 HYPERVISOR: exec_cmd: vm set_ios ESW2 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 14:58:02.032 HYPERVISOR: exec_cmd: vm rename ESW2 PoE1 
+Jun 23 14:58:02.071 HYPERVISOR: exec_cmd: vm set_ios PoE1 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 14:58:22.830 HYPERVISOR: exec_cmd: vm set_ghost_status PoE1 2 
+Jun 23 14:58:22.831 HYPERVISOR: exec_cmd: vm set_ghost_file PoE1 /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/c3725-adventerprisek9-mz.124-15.T14-1.image-256.ghost 
+Jun 23 14:58:22.831 HYPERVISOR: exec_cmd: vm get_status PoE1 
+Jun 23 14:58:22.832 HYPERVISOR: exec_cmd: vm set_config PoE1 configs/i6_startup-config.cfg 
+Jun 23 14:58:22.832 HYPERVISOR: exec_cmd: vm start PoE1 
+Jun 23 14:58:53.099 HYPERVISOR: exec_cmd: vm extract_config PoE1 
+Jun 23 14:58:53.100 HYPERVISOR: exec_cmd: vm extract_config PoE1 
+Jun 23 14:59:53.101 HYPERVISOR: exec_cmd: vm extract_config PoE1 
+Jun 23 14:59:53.107 HYPERVISOR: exec_cmd: vm extract_config PoE1 
+Jun 23 15:00:53.106 HYPERVISOR: exec_cmd: vm extract_config PoE1 
+Jun 23 15:00:53.110 HYPERVISOR: exec_cmd: vm extract_config PoE1 
+Jun 23 15:24:07.096 HYPERVISOR: exec_cmd: vm get_status PoE1 
+Jun 23 15:24:07.096 HYPERVISOR: exec_cmd: vm stop PoE1 
+Jun 23 15:24:07.197 VM: VM PoE1 shutdown.
+Jun 23 15:24:07.198 HYPERVISOR: exec_cmd: vm extract_config PoE1 
+Jun 23 15:24:14.558 HYPERVISOR: exec_cmd: vm set_ghost_status PoE1 2 
+Jun 23 15:24:14.558 HYPERVISOR: exec_cmd: vm set_ghost_file PoE1 /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/c3725-adventerprisek9-mz.124-15.T14-1.image-256.ghost 
+Jun 23 15:24:14.559 HYPERVISOR: exec_cmd: vm get_status PoE1 
+Jun 23 15:24:14.559 HYPERVISOR: exec_cmd: vm set_config PoE1 configs/i6_startup-config.cfg 
+Jun 23 15:24:14.559 HYPERVISOR: exec_cmd: vm start PoE1 
+Jun 23 15:25:14.784 HYPERVISOR: exec_cmd: vm extract_config PoE1 
+Jun 23 15:25:14.787 HYPERVISOR: exec_cmd: vm extract_config PoE1 

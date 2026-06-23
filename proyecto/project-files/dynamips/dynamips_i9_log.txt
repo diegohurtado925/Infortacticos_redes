@@ -1,0 +1,54 @@
+Jun 23 14:31:21.709 HYPERVISOR: Release 0.2.23-amd64/Darwin (tag 2023010200)
+Jun 23 14:31:21.710 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55825.
+Jun 23 14:31:21.716 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 23 14:31:21.716 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips 
+Jun 23 14:31:21.716 GENERAL: working_dir=/Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips
+Jun 23 14:31:21.716 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/21f81e1b-b2b8-4daa-8803-c9fb4323d543 
+Jun 23 14:31:21.716 GENERAL: working_dir=/Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/21f81e1b-b2b8-4daa-8803-c9fb4323d543
+Jun 23 14:31:21.716 HYPERVISOR: exec_cmd: vm create R2 2 c3725 
+Jun 23 14:31:21.717 VM: VM R2 created.
+Jun 23 14:31:21.717 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5002 
+Jun 23 14:31:21.718 HYPERVISOR: exec_cmd: c3725 get_mac_addr R2 
+Jun 23 14:31:21.718 HYPERVISOR: exec_cmd: vm set_disk0 R2 8 
+Jun 23 14:31:21.718 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 23 14:31:21.719 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60c09aa0 
+Jun 23 14:31:21.719 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 14:31:21.719 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Jun 23 14:31:21.750 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 14:31:25.293 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 14:31:34.545 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 14:31:38.643 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 14:32:06.466 HYPERVISOR: exec_cmd: nio create_udp udp-3b3f8bf7-1bf2-4be9-803b-9ea62858f2de 10004 127.0.0.1 10005 
+Jun 23 14:32:06.705 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-3b3f8bf7-1bf2-4be9-803b-9ea62858f2de 
+Jun 23 14:32:06.705 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 23 14:32:15.156 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 23 14:32:15.156 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-1FE-TX 
+Jun 23 14:32:27.676 HYPERVISOR: exec_cmd: nio create_udp udp-8534ce33-2f1e-4d8c-ba0f-0bf60248e4f6 10008 127.0.0.1 10009 
+Jun 23 14:32:27.677 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-8534ce33-2f1e-4d8c-ba0f-0bf60248e4f6 
+Jun 23 14:32:27.678 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 23 14:32:47.356 HYPERVISOR: exec_cmd: nio create_udp udp-8fd56668-316c-41a6-ab93-fa5f8d4b8abf 10020 127.0.0.1 10021 
+Jun 23 14:32:47.357 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-8fd56668-316c-41a6-ab93-fa5f8d4b8abf 
+Jun 23 14:32:47.357 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 23 14:40:01.000 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Jun 23 14:40:01.001 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/c3725-adventerprisek9-mz.124-15.T14-1.image-128.ghost 
+Jun 23 14:40:01.002 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 23 14:40:01.004 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Jun 23 14:40:01.004 HYPERVISOR: exec_cmd: vm start R2 
+Jun 23 14:41:01.253 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 23 14:41:01.260 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 23 14:46:01.279 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 23 14:46:01.287 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 23 14:58:22.827 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Jun 23 14:58:22.828 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/c3725-adventerprisek9-mz.124-15.T14-1.image-128.ghost 
+Jun 23 14:58:22.828 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 23 15:24:07.045 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 23 15:24:07.045 HYPERVISOR: exec_cmd: vm stop R2 
+Jun 23 15:24:07.150 VM: VM R2 shutdown.
+Jun 23 15:24:07.150 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 23 15:24:14.476 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Jun 23 15:24:14.476 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/c3725-adventerprisek9-mz.124-15.T14-1.image-128.ghost 
+Jun 23 15:24:14.476 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 23 15:24:14.476 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Jun 23 15:24:14.477 HYPERVISOR: exec_cmd: vm start R2 
+Jun 23 15:25:14.703 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 23 15:25:14.706 HYPERVISOR: exec_cmd: vm extract_config R2 

@@ -1,0 +1,95 @@
+Jun 23 14:26:24.847 HYPERVISOR: Release 0.2.23-amd64/Darwin (tag 2023010200)
+Jun 23 14:26:24.848 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55699.
+Jun 23 14:26:24.852 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 23 14:26:24.853 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips 
+Jun 23 14:26:24.853 GENERAL: working_dir=/Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips
+Jun 23 14:26:24.853 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/234f394f-b78f-4089-af57-3b573e2f4efe 
+Jun 23 14:26:24.853 GENERAL: working_dir=/Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/234f394f-b78f-4089-af57-3b573e2f4efe
+Jun 23 14:26:24.853 HYPERVISOR: exec_cmd: vm create switch1 10 c3725 
+Jun 23 14:26:24.854 VM: VM switch1 created.
+Jun 23 14:26:24.855 HYPERVISOR: exec_cmd: vm set_con_tcp_port switch1 5040 
+Jun 23 14:26:24.855 HYPERVISOR: exec_cmd: c3725 get_mac_addr switch1 
+Jun 23 14:26:24.855 HYPERVISOR: exec_cmd: vm set_disk0 switch1 1 
+Jun 23 14:26:24.855 HYPERVISOR: exec_cmd: vm get_status switch1 
+Jun 23 14:26:24.856 HYPERVISOR: exec_cmd: vm set_idle_pc switch1 0x60c09aa0 
+Jun 23 14:26:24.856 HYPERVISOR: exec_cmd: vm set_ios switch1 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 14:26:24.856 HYPERVISOR: exec_cmd: c3725 set_mac_addr switch1 c20a.c85a.0000 
+Jun 23 14:26:24.857 HYPERVISOR: exec_cmd: vm set_nvram switch1 256 
+Jun 23 14:26:24.857 HYPERVISOR: exec_cmd: vm set_ram switch1 256 
+Jun 23 14:26:24.857 HYPERVISOR: exec_cmd: vm get_status switch1 
+Jun 23 14:26:24.857 HYPERVISOR: exec_cmd: vm slot_add_binding switch1 1 0 NM-16ESW 
+Jun 23 14:26:24.860 HYPERVISOR: exec_cmd: vm set_con_tcp_port switch1 5040 
+Jun 23 14:26:34.612 HYPERVISOR: exec_cmd: vm set_ios switch1 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 14:27:29.060 HYPERVISOR: exec_cmd: nio create_udp udp-48f4e593-984b-47b0-ac1b-51af5cbb2745 10016 127.0.0.1 10017 
+Jun 23 14:27:29.293 HYPERVISOR: exec_cmd: vm slot_add_nio_binding switch1 0 0 udp-48f4e593-984b-47b0-ac1b-51af5cbb2745 
+Jun 23 14:27:29.294 HYPERVISOR: exec_cmd: vm get_status switch1 
+Jun 23 14:31:08.669 HYPERVISOR: exec_cmd: vm get_status switch1 
+Jun 23 14:31:08.670 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding switch1 0 0 
+Jun 23 14:31:08.670 HYPERVISOR: exec_cmd: nio delete udp-48f4e593-984b-47b0-ac1b-51af5cbb2745 
+Jun 23 14:32:41.716 HYPERVISOR: exec_cmd: nio create_udp udp-e9d88343-d508-4e92-8799-b3b6c7d0a149 10016 127.0.0.1 10017 
+Jun 23 14:32:41.717 HYPERVISOR: exec_cmd: vm slot_add_nio_binding switch1 1 0 udp-e9d88343-d508-4e92-8799-b3b6c7d0a149 
+Jun 23 14:32:41.718 HYPERVISOR: exec_cmd: vm get_status switch1 
+Jun 23 14:34:12.018 HYPERVISOR: exec_cmd: nio create_udp udp-7d42e38a-3fc5-45a5-9434-586acc4e610b 10032 127.0.0.1 10033 
+Jun 23 14:34:12.020 HYPERVISOR: exec_cmd: vm slot_add_nio_binding switch1 1 15 udp-7d42e38a-3fc5-45a5-9434-586acc4e610b 
+Jun 23 14:34:12.020 HYPERVISOR: exec_cmd: vm get_status switch1 
+Jun 23 14:35:20.124 HYPERVISOR: exec_cmd: nio create_udp udp-19e7c76d-d489-4eda-8d83-5a280ac41ba4 10050 127.0.0.1 10051 
+Jun 23 14:35:20.126 HYPERVISOR: exec_cmd: vm slot_add_nio_binding switch1 1 1 udp-19e7c76d-d489-4eda-8d83-5a280ac41ba4 
+Jun 23 14:35:20.126 HYPERVISOR: exec_cmd: vm get_status switch1 
+Jun 23 14:35:29.284 HYPERVISOR: exec_cmd: nio create_udp udp-0ffcd2a0-024f-48f1-b05b-f1c7d7d02b02 10054 127.0.0.1 10055 
+Jun 23 14:35:29.285 HYPERVISOR: exec_cmd: vm slot_add_nio_binding switch1 1 4 udp-0ffcd2a0-024f-48f1-b05b-f1c7d7d02b02 
+Jun 23 14:35:29.285 HYPERVISOR: exec_cmd: vm get_status switch1 
+Jun 23 14:35:32.595 HYPERVISOR: exec_cmd: vm get_status switch1 
+Jun 23 14:35:32.596 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding switch1 1 1 
+Jun 23 14:35:32.597 HYPERVISOR: exec_cmd: nio delete udp-19e7c76d-d489-4eda-8d83-5a280ac41ba4 
+Jun 23 14:35:40.383 HYPERVISOR: exec_cmd: nio create_udp udp-aed2510a-a16e-4fb6-ba6a-d1c10ed28c95 10050 127.0.0.1 10051 
+Jun 23 14:35:40.384 HYPERVISOR: exec_cmd: vm slot_add_nio_binding switch1 1 3 udp-aed2510a-a16e-4fb6-ba6a-d1c10ed28c95 
+Jun 23 14:35:40.384 HYPERVISOR: exec_cmd: vm get_status switch1 
+Jun 23 14:36:01.322 HYPERVISOR: exec_cmd: nio create_udp udp-32c6c604-29f1-4c8c-8a83-40639106a62b 10058 127.0.0.1 10059 
+Jun 23 14:36:01.323 HYPERVISOR: exec_cmd: vm slot_add_nio_binding switch1 1 6 udp-32c6c604-29f1-4c8c-8a83-40639106a62b 
+Jun 23 14:36:01.324 HYPERVISOR: exec_cmd: vm get_status switch1 
+Jun 23 14:36:16.729 HYPERVISOR: exec_cmd: nio create_udp udp-d28d124b-3f99-4edb-98b5-e187ce896820 10062 127.0.0.1 10063 
+Jun 23 14:36:16.730 HYPERVISOR: exec_cmd: vm slot_add_nio_binding switch1 1 7 udp-d28d124b-3f99-4edb-98b5-e187ce896820 
+Jun 23 14:36:16.731 HYPERVISOR: exec_cmd: vm get_status switch1 
+Jun 23 14:36:46.753 HYPERVISOR: exec_cmd: nio create_udp udp-68f93723-aa0f-4eeb-9d2b-3d93a031eaba 10066 127.0.0.1 10067 
+Jun 23 14:36:46.755 HYPERVISOR: exec_cmd: vm slot_add_nio_binding switch1 1 8 udp-68f93723-aa0f-4eeb-9d2b-3d93a031eaba 
+Jun 23 14:36:46.755 HYPERVISOR: exec_cmd: vm get_status switch1 
+Jun 23 14:39:59.033 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Jun 23 14:39:59.034 VM: VM Ghost created.
+Jun 23 14:39:59.043 HYPERVISOR: exec_cmd: vm set_ios Ghost /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 14:39:59.043 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 23 14:39:59.048 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/c3725-adventerprisek9-mz.124-15.T14-1.image-256.ghost 
+Jun 23 14:39:59.053 HYPERVISOR: exec_cmd: vm set_ram Ghost 256 
+Jun 23 14:39:59.054 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 23 14:39:59.055 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Jun 23 14:39:59.056 HYPERVISOR: exec_cmd: vm start Ghost 
+Jun 23 14:39:59.717 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 23 14:39:59.718 HYPERVISOR: exec_cmd: vm stop Ghost 
+Jun 23 14:39:59.898 VM: VM Ghost shutdown.
+Jun 23 14:39:59.899 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Jun 23 14:39:59.900 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jun 23 14:39:59.900 VM: VM Ghost destroyed.
+Jun 23 14:39:59.902 HYPERVISOR: exec_cmd: vm set_ghost_status switch1 2 
+Jun 23 14:39:59.902 HYPERVISOR: exec_cmd: vm set_ghost_file switch1 /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/c3725-adventerprisek9-mz.124-15.T14-1.image-256.ghost 
+Jun 23 14:39:59.902 HYPERVISOR: exec_cmd: vm get_status switch1 
+Jun 23 14:39:59.902 HYPERVISOR: exec_cmd: vm set_config switch1 configs/i10_startup-config.cfg 
+Jun 23 14:39:59.903 HYPERVISOR: exec_cmd: vm start switch1 
+Jun 23 14:41:00.133 HYPERVISOR: exec_cmd: vm extract_config switch1 
+Jun 23 14:41:00.140 HYPERVISOR: exec_cmd: vm extract_config switch1 
+Jun 23 14:48:00.168 HYPERVISOR: exec_cmd: vm extract_config switch1 
+Jun 23 14:48:00.172 HYPERVISOR: exec_cmd: vm extract_config switch1 
+Jun 23 14:50:30.183 HYPERVISOR: exec_cmd: vm extract_config switch1 
+Jun 23 14:50:30.187 HYPERVISOR: exec_cmd: vm extract_config switch1 
+Jun 23 14:58:22.817 HYPERVISOR: exec_cmd: vm set_ghost_status switch1 2 
+Jun 23 14:58:22.818 HYPERVISOR: exec_cmd: vm set_ghost_file switch1 /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/c3725-adventerprisek9-mz.124-15.T14-1.image-256.ghost 
+Jun 23 14:58:22.818 HYPERVISOR: exec_cmd: vm get_status switch1 
+Jun 23 15:24:06.589 HYPERVISOR: exec_cmd: vm get_status switch1 
+Jun 23 15:24:06.590 HYPERVISOR: exec_cmd: vm stop switch1 
+Jun 23 15:24:06.811 VM: VM switch1 shutdown.
+Jun 23 15:24:06.812 HYPERVISOR: exec_cmd: vm extract_config switch1 
+Jun 23 15:24:14.043 HYPERVISOR: exec_cmd: vm set_ghost_status switch1 2 
+Jun 23 15:24:14.043 HYPERVISOR: exec_cmd: vm set_ghost_file switch1 /Users/diegobenjaminhurtadoramos/Documents/C126/RDC/Proyecto/Infortacticos_redes/proyecto/project-files/dynamips/c3725-adventerprisek9-mz.124-15.T14-1.image-256.ghost 
+Jun 23 15:24:14.043 HYPERVISOR: exec_cmd: vm get_status switch1 
+Jun 23 15:24:14.044 HYPERVISOR: exec_cmd: vm set_config switch1 configs/i10_startup-config.cfg 
+Jun 23 15:24:14.044 HYPERVISOR: exec_cmd: vm start switch1 
+Jun 23 15:25:14.260 HYPERVISOR: exec_cmd: vm extract_config switch1 
+Jun 23 15:25:14.262 HYPERVISOR: exec_cmd: vm extract_config switch1 

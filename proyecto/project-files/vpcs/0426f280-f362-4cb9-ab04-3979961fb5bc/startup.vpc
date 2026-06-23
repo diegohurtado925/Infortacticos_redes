@@ -1,9 +1,2 @@
-# This the configuration for AtenciónalCliente
-#
-# Uncomment the following line to enable DHCP
-# dhcp
-# or the line below to manually setup an IP address and subnet mask
-# ip 192.168.1.1 255.0.0.0
-#
-
-set pcname AtenciónalCliente
+set pcname VPCS
+ip 172.16.1.200 172.16.1.193 27
