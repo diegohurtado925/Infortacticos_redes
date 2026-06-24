@@ -61,3 +61,7 @@ Jun 23 15:24:14.559 HYPERVISOR: exec_cmd: vm set_config PoE1 configs/i6_startup-
 Jun 23 15:24:14.559 HYPERVISOR: exec_cmd: vm start PoE1 
 Jun 23 15:25:14.784 HYPERVISOR: exec_cmd: vm extract_config PoE1 
 Jun 23 15:25:14.787 HYPERVISOR: exec_cmd: vm extract_config PoE1 
+Jun 23 16:03:06.006 HYPERVISOR: exec_cmd: vm get_status PoE1 
+Jun 23 16:03:06.007 HYPERVISOR: exec_cmd: vm stop PoE1 
+Jun 23 16:03:06.100 VM: VM PoE1 shutdown.
+Jun 23 16:03:06.101 HYPERVISOR: exec_cmd: vm extract_config PoE1 

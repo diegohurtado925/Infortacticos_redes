@@ -47,3 +47,7 @@ Jun 23 15:24:14.532 HYPERVISOR: exec_cmd: vm set_config R3 configs/i3_startup-co
 Jun 23 15:24:14.532 HYPERVISOR: exec_cmd: vm start R3 
 Jun 23 15:25:14.786 HYPERVISOR: exec_cmd: vm extract_config R3 
 Jun 23 15:25:14.787 HYPERVISOR: exec_cmd: vm extract_config R3 
+Jun 23 16:03:06.004 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 23 16:03:06.005 HYPERVISOR: exec_cmd: vm stop R3 
+Jun 23 16:03:06.091 VM: VM R3 shutdown.
+Jun 23 16:03:06.091 HYPERVISOR: exec_cmd: vm extract_config R3 

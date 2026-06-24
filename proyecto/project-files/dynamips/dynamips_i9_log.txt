@@ -52,3 +52,7 @@ Jun 23 15:24:14.476 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-co
 Jun 23 15:24:14.477 HYPERVISOR: exec_cmd: vm start R2 
 Jun 23 15:25:14.703 HYPERVISOR: exec_cmd: vm extract_config R2 
 Jun 23 15:25:14.706 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 23 16:03:06.004 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 23 16:03:06.004 HYPERVISOR: exec_cmd: vm stop R2 
+Jun 23 16:03:06.111 VM: VM R2 shutdown.
+Jun 23 16:03:06.112 HYPERVISOR: exec_cmd: vm extract_config R2 

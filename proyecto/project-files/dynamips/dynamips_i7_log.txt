@@ -78,3 +78,7 @@ Jun 23 15:24:14.287 HYPERVISOR: exec_cmd: vm set_config switch3 configs/i5_start
 Jun 23 15:24:14.288 HYPERVISOR: exec_cmd: vm start switch3 
 Jun 23 15:25:14.535 HYPERVISOR: exec_cmd: vm extract_config switch3 
 Jun 23 15:25:14.539 HYPERVISOR: exec_cmd: vm extract_config switch3 
+Jun 23 16:03:05.764 HYPERVISOR: exec_cmd: vm get_status switch3 
+Jun 23 16:03:05.765 HYPERVISOR: exec_cmd: vm stop switch3 
+Jun 23 16:03:06.000 VM: VM switch3 shutdown.
+Jun 23 16:03:06.001 HYPERVISOR: exec_cmd: vm extract_config switch3 

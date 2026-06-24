@@ -74,3 +74,9 @@ Jun 23 15:24:14.259 HYPERVISOR: exec_cmd: vm set_config ESW1 configs/i4_startup-
 Jun 23 15:24:14.259 HYPERVISOR: exec_cmd: vm start ESW1 
 Jun 23 15:25:14.479 HYPERVISOR: exec_cmd: vm extract_config ESW1 
 Jun 23 15:25:14.482 HYPERVISOR: exec_cmd: vm extract_config ESW1 
+Jun 23 16:03:05.764 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Jun 23 16:03:05.765 HYPERVISOR: exec_cmd: vm stop ESW1 
+Jun 23 16:03:06.003 VM: VM ESW1 shutdown.
+Jun 23 16:03:06.004 HYPERVISOR: exec_cmd: vm extract_config ESW1 
+Jun 23 16:16:05.521 HYPERVISOR: exec_cmd: vm set_ios ESW1 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 16:16:09.503 HYPERVISOR: exec_cmd: vm set_ios ESW1 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 

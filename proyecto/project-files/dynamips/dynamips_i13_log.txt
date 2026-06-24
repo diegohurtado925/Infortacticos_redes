@@ -59,3 +59,7 @@ Jun 23 15:24:14.786 HYPERVISOR: exec_cmd: vm set_config PoE3 configs/i8_startup-
 Jun 23 15:24:14.787 HYPERVISOR: exec_cmd: vm start PoE3 
 Jun 23 15:25:15.044 HYPERVISOR: exec_cmd: vm extract_config PoE3 
 Jun 23 15:25:15.047 HYPERVISOR: exec_cmd: vm extract_config PoE3 
+Jun 23 16:03:06.103 HYPERVISOR: exec_cmd: vm get_status PoE3 
+Jun 23 16:03:06.104 HYPERVISOR: exec_cmd: vm stop PoE3 
+Jun 23 16:03:06.189 VM: VM PoE3 shutdown.
+Jun 23 16:03:06.190 HYPERVISOR: exec_cmd: vm extract_config PoE3 

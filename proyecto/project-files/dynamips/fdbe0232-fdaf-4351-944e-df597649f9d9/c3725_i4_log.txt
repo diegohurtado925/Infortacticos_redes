@@ -282,3 +282,36 @@ Jun 23 15:24:56.835 ROM: trying to set bootvar 'BSI=0'
 Jun 23 15:24:56.837 ROM: trying to read bootvar 'RET_2_RCALTS'
 Jun 23 15:24:56.841 ROM: trying to set bootvar 'RET_2_RCALTS='
 Jun 23 15:27:38.990 ROM: trying to set bootvar 'RANDOM_NUM=863577927'
+Jun 23 16:03:05.765 C3725_STOP: stopping simulation.
+Jun 23 16:03:05.765 CPU0: CPU_STATE: Halting CPU (old state=0)...
+Jun 23 16:03:05.997 VM: shutdown procedure engaged.
+Jun 23 16:03:05.997 VM_OBJECT: Shutdown of object "slot1"
+Jun 23 16:03:05.997 DEVICE: Removal of device slot1, fd=-1, host_addr=0x0, flags=2
+Jun 23 16:03:05.997 VM_OBJECT: Shutdown of object "slot0"
+Jun 23 16:03:05.997 DEVICE: Removal of device slot0, fd=-1, host_addr=0x0, flags=2
+Jun 23 16:03:05.997 VM_OBJECT: Shutdown of object "ns16552"
+Jun 23 16:03:05.997 DEVICE: Removal of device ns16552, fd=-1, host_addr=0x0, flags=0
+Jun 23 16:03:05.997 VM_OBJECT: Shutdown of object "mem_bswap"
+Jun 23 16:03:05.997 DEVICE: Removal of device mem_bswap, fd=-1, host_addr=0x0, flags=0
+Jun 23 16:03:05.997 VM_OBJECT: Shutdown of object "rom"
+Jun 23 16:03:05.997 DEVICE: Removal of device rom, fd=22, host_addr=0x1229ee000, flags=1
+Jun 23 16:03:05.997 MMAP: unmapping of device 'rom', fd=22, host_addr=0x1229ee000, len=0x200000
+Jun 23 16:03:05.997 VM_OBJECT: Shutdown of object "ram"
+Jun 23 16:03:05.997 DEVICE: Removal of device ram, fd=21, host_addr=0x110b63000, flags=34
+Jun 23 16:03:05.997 MMAP: unmapping of device 'ram', fd=21, host_addr=0x110b63000, len=0x10000000
+Jun 23 16:03:06.003 VM_OBJECT: Shutdown of object "gt96100"
+Jun 23 16:03:06.003 DEVICE: Removal of device gt96100, fd=-1, host_addr=0x0, flags=0
+Jun 23 16:03:06.003 VM_OBJECT: Shutdown of object "io_fpga"
+Jun 23 16:03:06.003 DEVICE: Removal of device io_fpga, fd=-1, host_addr=0x0, flags=0
+Jun 23 16:03:06.003 VM_OBJECT: Shutdown of object "ssa"
+Jun 23 16:03:06.003 DEVICE: Removal of device ssa, fd=20, host_addr=0x10448a000, flags=2
+Jun 23 16:03:06.003 MMAP: unmapping of device 'ssa', fd=20, host_addr=0x10448a000, len=0x7000
+Jun 23 16:03:06.003 VM_OBJECT: Shutdown of object "remote_ctrl"
+Jun 23 16:03:06.003 DEVICE: Removal of device remote_ctrl, fd=-1, host_addr=0x0, flags=0
+Jun 23 16:03:06.003 VM: removing PCI busses.
+Jun 23 16:03:06.003 VM: deleting VTTY.
+Jun 23 16:03:06.003 VTTY: Console port: closing FD 18
+Jun 23 16:03:06.003 VTTY: Console port: closing FD 19
+Jun 23 16:03:06.003 VM: deleting system CPUs.
+Jun 23 16:03:06.003 CPU0: CPU_STATE: Halting CPU (old state=1)...
+Jun 23 16:03:06.003 VM: shutdown procedure completed.

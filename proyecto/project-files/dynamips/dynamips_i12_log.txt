@@ -61,3 +61,9 @@ Jun 23 15:24:14.702 HYPERVISOR: exec_cmd: vm set_config PoE2 configs/i7_startup-
 Jun 23 15:24:14.703 HYPERVISOR: exec_cmd: vm start PoE2 
 Jun 23 15:25:14.934 HYPERVISOR: exec_cmd: vm extract_config PoE2 
 Jun 23 15:25:14.936 HYPERVISOR: exec_cmd: vm extract_config PoE2 
+Jun 23 16:03:06.093 HYPERVISOR: exec_cmd: vm get_status PoE2 
+Jun 23 16:03:06.094 HYPERVISOR: exec_cmd: vm stop PoE2 
+Jun 23 16:03:06.189 VM: VM PoE2 shutdown.
+Jun 23 16:03:06.189 HYPERVISOR: exec_cmd: vm extract_config PoE2 
+Jun 23 16:16:05.522 HYPERVISOR: exec_cmd: vm set_ios PoE2 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 
+Jun 23 16:16:09.506 HYPERVISOR: exec_cmd: vm set_ios PoE2 /Users/diegobenjaminhurtadoramos/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14-1.image 

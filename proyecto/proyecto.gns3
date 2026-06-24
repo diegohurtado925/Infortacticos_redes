@@ -141,8 +141,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f0/0",
-                            "x": 72,
-                            "y": 15
+                            "x": 98,
+                            "y": 53
                         },
                         "node_id": "21f81e1b-b2b8-4daa-8803-c9fb4323d543",
                         "port_number": 0
@@ -1140,8 +1140,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": 423,
-                "y": -165,
+                "x": 449,
+                "y": -126,
                 "z": 1
             },
             {
@@ -1169,8 +1169,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": 415,
-                "y": 36,
+                "x": 441,
+                "y": 73,
                 "z": 1
             },
             {
@@ -1198,8 +1198,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": 419,
-                "y": -67,
+                "x": 445,
+                "y": -28,
                 "z": 1
             },
             {
@@ -1227,8 +1227,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": 413,
-                "y": 158,
+                "x": 439,
+                "y": 195,
                 "z": 1
             },
             {
@@ -1459,8 +1459,8 @@
                 "symbol": ":/symbols/classic/access_point.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 72,
-                "x": 275,
-                "y": 309,
+                "x": 301,
+                "y": 346,
                 "z": 1
             },
             {
@@ -1470,7 +1470,7 @@
                 "console_type": "telnet",
                 "custom_adapters": [],
                 "first_port_name": null,
-                "height": 59,
+                "height": 32,
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
@@ -1485,9 +1485,9 @@
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
                 "properties": {},
-                "symbol": ":/symbols/vpcs_guest.svg",
+                "symbol": ":/symbols/classic/access_point.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
-                "width": 65,
+                "width": 72,
                 "x": -751,
                 "y": 15,
                 "z": 1
@@ -1517,8 +1517,8 @@
                 "symbol": ":/symbols/affinity/circle/blue/camera.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 60,
-                "x": -385,
-                "y": 111,
+                "x": -383,
+                "y": 80,
                 "z": 1
             },
             {
@@ -1546,8 +1546,8 @@
                 "symbol": ":/symbols/affinity/circle/blue/camera.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 60,
-                "x": -57,
-                "y": -234,
+                "x": 55,
+                "y": -220,
                 "z": 1
             },
             {
@@ -1604,8 +1604,8 @@
                 "symbol": ":/symbols/classic/access_point.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 72,
-                "x": 356,
-                "y": 251,
+                "x": 382,
+                "y": 288,
                 "z": 1
             },
             {
@@ -1718,8 +1718,8 @@
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "template_id": "fafbdb3c-c379-4d04-ae4f-a3641cb8d41e",
                 "width": 51,
-                "x": 45,
-                "y": 16,
+                "x": 71,
+                "y": 53,
                 "z": 1
             },
             {
@@ -2060,8 +2060,8 @@
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "template_id": "fafbdb3c-c379-4d04-ae4f-a3641cb8d41e",
                 "width": 51,
-                "x": 40,
-                "y": -116,
+                "x": 66,
+                "y": -77,
                 "z": 1
             },
             {

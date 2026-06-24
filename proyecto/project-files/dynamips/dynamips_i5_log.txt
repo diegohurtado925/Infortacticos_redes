@@ -93,3 +93,7 @@ Jun 23 15:24:14.044 HYPERVISOR: exec_cmd: vm set_config switch1 configs/i10_star
 Jun 23 15:24:14.044 HYPERVISOR: exec_cmd: vm start switch1 
 Jun 23 15:25:14.260 HYPERVISOR: exec_cmd: vm extract_config switch1 
 Jun 23 15:25:14.262 HYPERVISOR: exec_cmd: vm extract_config switch1 
+Jun 23 16:03:05.664 HYPERVISOR: exec_cmd: vm get_status switch1 
+Jun 23 16:03:05.664 HYPERVISOR: exec_cmd: vm stop switch1 
+Jun 23 16:03:05.888 VM: VM switch1 shutdown.
+Jun 23 16:03:05.889 HYPERVISOR: exec_cmd: vm extract_config switch1 
